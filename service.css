@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+background-image: url('http://voicent.com/predictive-dialer/blog/wp-content/uploads/2015/01/7.jpg');
+}
+
+header {
+    background-color: #8B008B;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+font-size: 50px;
+font-style: oblique;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    font-size: 20px;
+}
+
+.service-info, .contact-info {
+    background-color: #00CED1;
+    padding: 20px;
+    margin: 20px 0;
+font-family:"Verdana", sans-serif;
+
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}

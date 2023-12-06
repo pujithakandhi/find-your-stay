@@ -1,0 +1,70 @@
+body {
+    background-image: url('https://www.icall.com.eg/wp-content/uploads/2020/05/Customer-Care.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center center;
+    background-attachment: fixed;
+}
+/* Reset some default styles */
+body, h1, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+/* Center the container */
+.container {
+    max-width: 700px;
+    margin: 65 auto;
+    padding: 20px;
+text-align: justify;
+}
+
+
+/* Style the form */
+form {
+   position: absolute;
+    top: 25%;
+    left: 15%;
+background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style form elements */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}

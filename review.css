@@ -1,0 +1,52 @@
+###review css###
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+background-image:url('https://www.cvent.com/sites/default/files/styles/focus_scale_and_crop_800x450/public/image/2021-06/customer%20leaving%205%20star%20review%20on%20phone.jpg?h=140710cd&itok=IkQahlxT');
+    padding: 20px;
+}
+
+.review-container {
+    width: 700px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.review {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s;
+}
+
+.review p:first-child {
+    font-family: "Verdana", sans-serif;
+font-size:20px;
+}
+
+.review p:last-child {
+    font-weight: bold;
+font-size:25px;
+    margin-top: 10px;
+}
+
+.review-container:hover .review {
+    transform: translateX(100%);
+    opacity: 0;
+}
+
+.review-container:hover .review:nth-child(1) {
+    transition-delay: 0.2s;
+}
+
+.review-container:hover .review:nth-child(2) {
+    transition-delay: 0.4s;
+}
+
+.review-container:hover .review:nth-child(3) {
+    transition-delay: 0.6s;
+}

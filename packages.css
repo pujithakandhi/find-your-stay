@@ -1,0 +1,56 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+/* Apply some basic styling to the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+ background-image: url('https://media.istockphoto.com/id/1394149713/photo/early-30s-saudi-businessman-walking-through-hotel-lobby.webp?b=1&s=170667a&w=0&k=20&c=uHp1k658D1yrFOc1NHM4qHN5CrMgXBSUw3UnxZCDe2Q=');
+}
+
+header {
+    background-color: #FFD700;
+    color: #00000;
+font-size: 40px;
+font-family:"Lucida Calligraphy", cursive;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the items horizontally within the main container */
+}
+
+.trip-package {
+    background-color: #fdf5e6;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    width: 200px;
+}
+
+/* Style headings and paragraphs within trip packages */
+.trip-package h2 {
+    font-size: 32px;
+font-family:"Comic Sans MS", cursive;
+    color: #333;
+}
+
+.trip-package p {
+    color: #666;
+font-size: 20px;
+font-family:"Georgia", serif;
+    margin: 0.5rem 0;
+}

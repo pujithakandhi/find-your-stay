@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+background-image: url('https://i.pinimg.com/originals/4b/79/2d/4b792d8da3202d0a33a8e0d4d502f0e0.jpg');
+}
+
+.restaurant-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 25px;
+width: 1300px;
+justify-content: center;
+  align-items: center;
+margin-left: 150px;
+}
+
+.restaurant {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.restaurant img {
+    max-width: 100%;
+}
+
+.restaurant h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.restaurant p {
+    font-size: 16px;
+    margin: 5px 0;
+}
